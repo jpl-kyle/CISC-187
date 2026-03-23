@@ -1,4 +1,4 @@
-1. A linked list is efficient for Stack implementation since it is dynamic because the nodes are not contiguous in memory. It also allows the FIFO (First In, First Out) characteristic that Stack provides.
+1. A linked list is efficient for Stack implementation since it is dynamic because the nodes are not contiguous in memory. It also allows the LIFO (Last In, First Out) characteristic that Stack provides.
 2. The time complexity of push and pop is O(1) because they only affect the top node and they create/delete a node efficiently.
 3. If memory isn't deallocated after pop, it create a memory leak because the node you popped will still exist in memory, but the program will not be able to access it.
 4. A stack implemented with an array would make it static, meaning that it would take more steps to implement the pop(); and push(); commands (O(n) time complexity, most efficient would be delete and adding at the end of the array.), and the risk of Stack Overflow will be added since it is a static array.
