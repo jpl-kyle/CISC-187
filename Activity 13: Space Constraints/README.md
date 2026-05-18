@@ -32,10 +32,6 @@ function reverse(array) {
         let left = 0;
         let right = array.length - 1;
 
-		for (let i = array.length - 1; i >= 0; i--) { 
-				newArray.push(array[i]);
-		}
-
         while (left < right) {
             let temp = array[left];
             array[left] = array[right];
