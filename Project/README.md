@@ -1,3 +1,11 @@
+```cpp
+#include <iostream>
+#include <vector>
+#include <unordered_map>
+#include <cmath>
+using namespace std;
+```
+
 ## 1.
 ```cpp
 struct Player {
